@@ -1,4 +1,21 @@
-<script type="text/javascript" src="https://news-xsoyoku.com/process.js?id=1245429278&p1=sub1&p2=sub2&p3=sub3&p4=sub4" async></script>
+<script type="text/javascript" src="https://news-xsoyoku.com/process.js?id=1245429278&p1=sub1&p2=sub2&p3=sub3&p4=sub4" async> </script>
+
+<script> 
+  window.addEventListener('phv2site.native_web_push', (e) => {
+    if (e.detail.state === 'notSupported') {
+      window.location.replace("5")
+    } else if (e.detail.state === 'permissionSkipped') {
+      window.location.replace("3")
+    } else if (e.detail.state === 'permissionDenied') {
+      window.location.replace("2")
+    } else if (e.detail.state === 'subscriptionExists') {
+      window.location.replace("1")
+    } else if (e.detail.state === 'subscribed') {
+      window.location.replace("4")
+    }
+  });
+</script>
+      
 <meta confirm="partners-house-139934"/>
 Hello world
 Test 1235749544
