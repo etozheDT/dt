@@ -1,2 +1,2 @@
-self.options = {domainId:2840,};
-importScripts('https://news-xzakola.site/sitesw_v2.js');
+self.options = {domainId:2828,};
+importScripts('https://news-xwidehi.store/sitesw_v2.js');
